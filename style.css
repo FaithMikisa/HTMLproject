@@ -4,7 +4,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     line-height: 1.6em;
-    margin: 0;
+    margin: 50;
     padding: 0%;
 }
 .box-1 {
@@ -14,7 +14,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
     font-style:italic;
-    text-decoration:none;
+    text-decoration:underline;
     text-transform: capitalize;
     letter-spacing: 0.01cm;
     word-spacing: 1em;
@@ -38,7 +38,9 @@ a:visited {
 }
 .nav-container {
     width:80%;
-    margin:auto;
+    margin: auto;
+    justify-content: center;
+    justify-content:space-around;
 }
 .box-2 {
     text-decoration: underline;
@@ -52,5 +54,34 @@ a:visited {
     list-style: none;
 }
 li {
-    padding-bottom: 6px;
+    padding-bottom: 6x;
+}
+.box-3 {
+    display:flex;
+    flex-direction: row;
+    background-color: darksalmon;
+}
+.box-4 {
+    display:flex;
+    flex-direction: row;
+    background-color: darksalmon;
+}
+.box-5 {
+    display:flex;
+    flex-direction:row;
+    background-color: darksalmon;
+}
+.box-6 {
+    display:flex;
+    flex-direction:row;
+    background-color: darksalmon;
+}
+.box-7 {
+    display:flex;
+    flex-direction: row;
+    background-color: darksalmon;
+}
+img {
+    width: 250px;
+    height: 250px;
 }
